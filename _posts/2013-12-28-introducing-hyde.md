@@ -4,6 +4,7 @@ title: Hakkında
 ---
 
 Turizm sektörü ve dijital yayıncılık alanlarında farklı pozisyonlarda tecrübeler edindim. Müşteri ilişkileri, operasyon yönetimi ve içerik düzenleme konularında kendimi geliştirirken, sosyal medya ve içerik üretimi süreçlerinde de etkin rol üstlendim. Aynı zamanda disiplinlerarası çalışan, deneysel fotoğrafçılık ve video prodüksiyonu alanında çeşitli projeler üzerinde çalıştım. 
+
 Analog ve dijital teknikleri harmanlayarak zaman, hafıza ve mekân kavramlarını işleyen özgün anlatılar üretmek, yaratıcılıkla ekip çalışmasını birleştirerek özgün multimedya projelerinde yer almaktan keyif almaktayım. Sanat, müzik ve sinemadan ilham alırken, işlerimin merkezine daima duyguyu ve sadeliği yerleştirerek hareket etmeyi tercih ederim. 
 
 ## Deneyimler
