@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Hakkında
+title: Hakkımda
 ---
 
 Turizm sektörü ve dijital yayıncılık alanlarında farklı pozisyonlarda tecrübeler edindim. Müşteri ilişkileri, operasyon yönetimi ve içerik düzenleme konularında kendimi geliştirirken, sosyal medya ve içerik üretimi süreçlerinde de etkin rol üstlendim. Aynı zamanda disiplinlerarası çalışan, deneysel fotoğrafçılık ve video prodüksiyonu alanında çeşitli projeler üzerinde çalıştım. 
