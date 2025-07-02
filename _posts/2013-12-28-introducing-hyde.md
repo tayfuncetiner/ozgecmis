@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Hakkımda
+title: Hakkında
 ---
 
 Turizm sektörü ve dijital yayıncılık alanlarında farklı pozisyonlarda tecrübeler edindim. Müşteri ilişkileri, operasyon yönetimi ve içerik düzenleme konularında kendimi geliştirirken, sosyal medya ve içerik üretimi süreçlerinde de etkin rol üstlendim. Aynı zamanda disiplinlerarası çalışan, deneysel fotoğrafçılık ve video prodüksiyonu alanında çeşitli projeler üzerinde çalıştım. 
@@ -9,18 +9,18 @@ Analog ve dijital teknikleri harmanlayarak zaman, hafıza ve mekân kavramların
 
 ## Deneyimler
 
+### Peaklive
+Videographer & Produksiyon elemanı | Haziran 2017 – Haziran 2019
+* Organizasyon ve etkinlik süreçlerinde prodüksiyon yönetimi.
+* Canlı performansların planlanması ve takibi.
+* Set fotoğrafçılığı ve çekim ekibi desteği.
+
 ### Etstur 
 Acente Temsilcisi | Haziran 2013 – Ağustos 2013
 * Otel ile operasyon ofisi arasında koordinasyon.
 * Müşteri karşılama ve otel giriş işlemlerine destek.
 * Rezervasyon süreçlerinin takibi ve olası aksaklıkların önlenmesi.
 * Tur ve gezi tanıtımını ve müşteri katılımını arttırılması.
-
-### Peaklive
-Videographer & Produksiyon elemanı | Haziran 2017 – Haziran 2019
-* Organizasyon ve etkinlik süreçlerinde prodüksiyon yönetimi.
-* Canlı performansların planlanması ve takibi.
-* Set fotoğrafçılığı ve çekim ekibi desteği.
 
 ### Müzikli Asansör
 Editör 
