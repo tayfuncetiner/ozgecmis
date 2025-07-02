@@ -1,37 +1,33 @@
 ---
 layout: post
-title: Introducing Hyde
+title: Hakkında
 ---
 
-Hyde is a brazen two-column [Jekyll](http://jekyllrb.com) theme that pairs a prominent sidebar with uncomplicated content. It's based on [Poole](http://getpoole.com), the Jekyll butler.
+Turizm sektörü ve dijital yayıncılık alanlarında farklı pozisyonlarda tecrübeler edindim. Müşteri ilişkileri, operasyon yönetimi ve içerik düzenleme konularında kendimi geliştirirken, sosyal medya ve içerik üretimi süreçlerinde de etkin rol üstlendim. Aynı zamanda disiplinlerarası çalışan, deneysel fotoğrafçılık ve video prodüksiyonu alanında çeşitli projeler üzerinde çalıştım. 
+Analog ve dijital teknikleri harmanlayarak zaman, hafıza ve mekân kavramlarını işleyen özgün anlatılar üretmek, yaratıcılıkla ekip çalışmasını birleştirerek özgün multimedya projelerinde yer almaktan keyif almaktayım. Sanat, müzik ve sinemadan ilham alırken, işlerimin merkezine daima duyguyu ve sadeliği yerleştirerek hareket etmeyi tercih ederim. 
 
-### Built on Poole
+## Deneyimler
 
-Poole is the Jekyll Butler, serving as an upstanding and effective foundation for Jekyll themes by [@mdo](https://twitter.com/mdo). Poole, and every theme built on it (like Hyde here) includes the following:
+### Etstur 
+Acente Temsilcisi | Haziran 2013 – Ağustos 2013
+* Otel ile operasyon ofisi arasında koordinasyon.
+* Müşteri karşılama ve otel giriş işlemlerine destek.
+* Rezervasyon süreçlerinin takibi ve olası aksaklıkların önlenmesi.
+* Tur ve gezi tanıtımını ve müşteri katılımını arttırılması.
 
-* Complete Jekyll setup included (layouts, config, [404](/404), [RSS feed](/atom.xml), posts, and [example page](/about))
-* Mobile friendly design and development
-* Easily scalable text and component sizing with `rem` units in the CSS
-* Support for a wide gamut of HTML elements
-* Related posts (time-based, because Jekyll) below each post
-* Syntax highlighting, courtesy Pygments (the Python-based code snippet highlighter)
+### Peaklive
+Videographer & Produksiyon elemanı | Haziran 2017 – Haziran 2019
+* Organizasyon ve etkinlik süreçlerinde prodüksiyon yönetimi.
+* Canlı performansların planlanması ve takibi.
+* Set fotoğrafçılığı ve çekim ekibi desteği.
 
-### Hyde features
+### Müzikli Asansör
+Editör 
+* Yayın kanalında içerik düzenleme ve sayfa akışı yönetimi.
+* Dijital yayınlarda ekip koordinasyonu desteği.
 
-In addition to the features of Poole, Hyde adds the following:
+## Eğitim
 
-* Sidebar includes support for textual modules and a dynamically generated navigation with active link support
-* Two orientations for content and sidebar, default (left sidebar) and [reverse](https://github.com/poole/lanyon#reverse-layout) (right sidebar), available via `<body>` classes
-* [Eight optional color schemes](https://github.com/poole/hyde#themes), available via `<body>` classes
-
-[Head to the readme](https://github.com/poole/hyde#readme) to learn more.
-
-### Browser support
-
-Hyde is by preference a forward-thinking project. In addition to the latest versions of Chrome, Safari (mobile and desktop), and Firefox, it is only compatible with Internet Explorer 9 and above.
-
-### Download
-
-Hyde is developed on and hosted with GitHub. Head to the <a href="https://github.com/poole/hyde">GitHub repository</a> for downloads, bug reports, and features requests.
-
-Thanks!
+**Dokuz Eylül Üniversitesi** | Güzel Sanatlar Fakültesi - Fotoğraf | 2016/2021 
+**Anadolu Üniversitesi** | Konaklama İşletmeciliği | 2013/2016 
+**Sıtkı Koçman Üniversitesi** | Konaklama ve Turizm İşletmeciliği | 2011/2013

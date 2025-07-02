@@ -2,6 +2,9 @@
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
       <h1>
+          {% if site.logo %}
+            <img class="img-circle" src="{{site.logo | relative_url}}" alt="Logo">
+          {% endif %}
         <a href="{{ site.baseurl }}">
           {{ site.title }}
         </a>
@@ -10,7 +13,7 @@
     </div>
 
     <nav class="sidebar-nav">
-      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a>
+      <a class="sidebar-nav-item" href="mailto:{{ site.email }}">tyfn.cetiner@windowslive.com</a>
 
       {% comment %}
         The code below dynamically generates a sidebar nav of pages with
@@ -21,16 +24,17 @@
       {% for node in pages_list %}
         {% if node.title != null %}
           {% if node.layout == "page" %}
-            <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
+            <a class="sidebar-nav-item" href="https://wa.me/{{ site.phone }}">+90 544 548 79 24</a>
           {% endif %}
         {% endif %}
       {% endfor %}
 
+      <a class="sidebar-nav-item" href="https://www.lomography.com/homes/renitec" target="_blank">Lomografy</a>
+
       <a class="sidebar-nav-item" href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">Download</a>
-      <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub project</a>
-      <span class="sidebar-nav-item">Currently v{{ site.version }}</span>
+      <span class="sidebar-nav-item"></span>
     </nav>
 
-    <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
+    <p>&copy; {{ site.time | date: '%Y' }}.</p>
   </div>
 </div>

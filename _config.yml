@@ -1,20 +1,19 @@
 # Dependencies
-markdown:         redcarpet
+markdown:         kramdown
 highlighter:      pygments
 
 # Permalinks
 permalink:        pretty
 
 # Setup
-title:            Hyde
+title:           Tayfun Çetiner
+logo:             /assets/demo1.jpg
 tagline:          'A Jekyll theme'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:              http://hyde.getpoole.com
+description:      ''
+email:            tyfn.cetiner@windowslive.com
+phone:            +905445487924
+url:              https://www.lomography.com/homes/renitec
 baseurl:          /
-
-author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
 
 paginate:         5
 
@@ -23,3 +22,8 @@ version:          2.1.0
 
 github:
   repo:           https://github.com/poole/hyde
+  
+plugins:
+  - jekyll-paginate
+  - jekyll-gist
+  
