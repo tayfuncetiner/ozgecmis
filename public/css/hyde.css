@@ -252,3 +252,43 @@ a.sidebar-nav-item:focus {
 .theme-base-0f .related-posts li a:hover {
   color: #8f5536;
 }
+
+@media (max-width: 600px) {
+  .sidebar-about img,
+  .sidebar-img-wrapper {
+    display: none !important;
+  }
+
+  .sidebar-about h1,
+  .sidebar-about .lead {
+    text-align: center !important;
+    font-size: 2rem !important;   
+    margin-bottom: 0.8rem;
+    color: #25a9fa !important;
+    font-weight: 700 !important;
+  }
+
+  .sidebar-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 0.33rem;
+    align-items: stretch;
+    margin-top: 0.7rem;
+    margin-bottom: 0.7rem;
+  }
+
+  .sidebar-nav-item {
+    font-size: 0.99rem;
+    background: #252525;
+    border-radius: 8px;
+    text-align: center;
+    padding: 0.48em 0.3em; /* LESS vertical padding */
+    margin: 0;
+    display: block;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+    min-height: 36px;
+    line-height: 1.1;
+  }
+}
+
