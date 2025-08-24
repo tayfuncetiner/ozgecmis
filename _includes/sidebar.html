@@ -13,27 +13,33 @@
     </div>
 
     <nav class="sidebar-nav">
-      <a class="sidebar-nav-item" href="mailto:{{ site.email }}">tyfn.cetiner@windowslive.com</a>
+      <a 
+      class="sidebar-nav-item" href="mailto:{{ site.email }}">tyfn.cetiner@windowslive.com
+    </a>
+      <a class="sidebar-nav-item" href="https://wa.me/{{ site.phone }}">
+    <!-- Phone SVG -->
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" style="vertical-align:middle; margin-right:0.1em;">
+      <path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2a1 1 0 011.11-.21c1.21.49 2.53.76 3.88.76a1 1 0 011 1V20a1 1 0 01-1 1C10.07 21 3 13.93 3 5a1 1 0 011-1h3.5a1 1 0 011 1c0 1.35.27 2.67.76 3.88a1 1 0 01-.21 1.11l-2.2 2.2z" fill="currentColor"/>
+    </svg>
+    +90 544 548 79 24
+  </a>
 
-      {% comment %}
-        The code below dynamically generates a sidebar nav of pages with
-        `layout: page` in the front-matter. See readme for usage.
-      {% endcomment %}
+      <a class="sidebar-nav-item" href="https://www.lomography.com/homes/renitec" target="_blank">
+    <!-- Globe/Website SVG -->
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" style="vertical-align:middle; margin-right:0.1em;">
+      <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2" fill="none"/>
+      <path d="M2 12h20M12 2a15.3 15.3 0 010 20M12 2a15.3 15.3 0 000 20" stroke="currentColor" stroke-width="2" fill="none"/>
+    </svg>
+    Lomography
+  </a>
 
-      {% assign pages_list = site.pages %}
-      {% for node in pages_list %}
-        {% if node.title != null %}
-          {% if node.layout == "page" %}
-          
-          {% endif %}
-        {% endif %}
-      {% endfor %}
-
-      <a class="sidebar-nav-item" href="https://wa.me/{{ site.phone }}">+90 544 548 79 24</a>
-      <a class="sidebar-nav-item" href="https://www.lomography.com/homes/renitec" target="_blank">Lomography</a>
-    <a class="sidebar-nav-item" href="https://github.com/tayfuncetiner/ozgecmis/raw/main/assets/Tayfun%20Çetiner%20·%20Özgeçmiş.pdf" download>
- PDF İndir
-</a>
+  <a class="sidebar-nav-item" href="https://github.com/tayfuncetiner/ozgecmis/raw/main/assets/Tayfun%20Çetiner%20·%20Özgeçmiş.pdf" download>
+    <!-- Download SVG -->
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" style="vertical-align:middle; margin-right:0.1em;">
+      <path d="M12 3v12m0 0l-4-4m4 4l4-4M4 21h16" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+    PDF İndir
+  </a>
     </nav>
   </div>
 </div>

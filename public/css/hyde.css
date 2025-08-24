@@ -1,18 +1,3 @@
-/*
- *  __                  __
- * /\ \                /\ \
- * \ \ \___   __  __   \_\ \     __
- *  \ \  _ `\/\ \/\ \  /'_` \  /'__`\
- *   \ \ \ \ \ \ \_\ \/\ \_\ \/\  __/
- *    \ \_\ \_\/`____ \ \___,_\ \____\
- *     \/_/\/_/`/___/> \/__,_ /\/____/
- *                /\___/
- *                \/__/
- *
- * Designed, built, and released under MIT license by @mdo. Learn more at
- * https://github.com/poole/hyde.
- */
-
 
 /*
  * Contents
@@ -24,17 +9,10 @@
  * Themes
  */
 
-
-/*
- * Global resets
- *
- * Update the foundational and global aspects of the page.
- */
-
 html {
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
 }
-@media (min-width: 48em) {
+@media (min-width: 50em) {
   html {
     font-size: 13px;
   }
@@ -59,7 +37,7 @@ html {
   color: rgba(255,255,255,.5);
   background-color: #202020;
 }
-@media (min-width: 48em) {
+@media (min-width: 50em) {
   .sidebar {
     position: fixed;
     top: 0;
@@ -99,15 +77,13 @@ a.sidebar-nav-item:focus {
   font-weight: bold;
 }
 
-
-
 /* Sticky sidebar
  *
  * Add the `sidebar-sticky` class to the sidebar's container to affix it the
  * contents to the bottom of the sidebar in tablets and up.
  */
 
-@media (min-width: 48em) {
+@media (min-width: 50em) {
   .sidebar-sticky {
     position: absolute;
     right:  1rem;
@@ -118,7 +94,6 @@ a.sidebar-nav-item:focus {
   }
 }
 
-
 /* Container
  *
  * Align the contents of the site above the proper threshold with some margin-fu
@@ -126,11 +101,11 @@ a.sidebar-nav-item:focus {
  */
 
 .content {
-  padding-top:    4rem;
+  padding-top:    2rem;
   padding-bottom: 4rem;
 }
 
-@media (min-width: 48em) {
+@media (min-width: 50em) {
   .content {
     max-width: 38rem;
     margin-left: 20rem;
@@ -145,14 +120,13 @@ a.sidebar-nav-item:focus {
   }
 }
 
-
 /*
  * Reverse layout
  *
  * Flip the orientation of the page by placing the `.sidebar` on the right.
  */
 
-@media (min-width: 48em) {
+@media (min-width: 50em) {
   .layout-reverse .sidebar {
     left: auto;
     right: 0;
@@ -170,7 +144,46 @@ a.sidebar-nav-item:focus {
   }
 }
 
+/* Custom Modifications for Sidebar on Mobile */
+@media (max-width: 800px) {
+  .sidebar-about img,
+  .sidebar-img-wrapper {
+    display: none !important;
+  }
 
+  .sidebar-about h1,
+  .sidebar-about .lead {
+    text-align: left !important;
+    font-size: 1.5rem !important;   
+    margin-bottom: 0.8rem;
+    color: #25a9fa !important;
+    font-weight: 650 !important;
+  }
+
+  .sidebar-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    gap: 0.5rem;
+    white-space: nowrap;
+    align-items: stretch;
+    margin-top: 0.7rem;
+    margin-bottom: 0.7rem;
+  }
+
+  .sidebar-nav-item {
+    font-size: 0.75rem;   /* Adjust this value as needed */
+    background: none;
+    border-radius: 0;
+    text-align: inherit;
+    padding: 0;
+    margin: 0;
+    font-weight: inherit;
+    letter-spacing: inherit;
+    min-height: unset;
+    line-height: 1;
+  }
+}
 
 /*
  * Themes
@@ -252,43 +265,3 @@ a.sidebar-nav-item:focus {
 .theme-base-0f .related-posts li a:hover {
   color: #8f5536;
 }
-
-@media (max-width: 800px) {
-  .sidebar-about img,
-  .sidebar-img-wrapper {
-    display: none !important;
-  }
-
-  .sidebar-about h1,
-  .sidebar-about .lead {
-    text-align: center !important;
-    font-size: 2rem !important;   
-    margin-bottom: 0.8rem;
-    color: #25a9fa !important;
-    font-weight: 700 !important;
-  }
-
-  .sidebar-nav {
-    display: flex;
-    flex-direction: column;
-    gap: 0.33rem;
-    align-items: stretch;
-    margin-top: 0.7rem;
-    margin-bottom: 0.7rem;
-  }
-
-  .sidebar-nav-item {
-    font-size: 0.99rem;
-    background: #252525;
-    border-radius: 8px;
-    text-align: center;
-    padding: 0.48em 0.3em; /* LESS vertical padding */
-    margin: 0;
-    display: block;
-    font-weight: 400;
-    letter-spacing: 0.01em;
-    min-height: 36px;
-    line-height: 1.1;
-  }
-}
-
